@@ -1,0 +1,20 @@
+{
+  "name": "frame-composer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "离线局部动画帧合成与处置回放后端（TypeScript + Node.js + SQLite）",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test test/*.test.ts",
+    "start": "node dist/server.js",
+    "start:dev": "node src/server.ts",
+    "cli": "node src/cli.ts",
+    "demo": "node src/demo.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}
+

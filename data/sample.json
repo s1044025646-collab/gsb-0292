@@ -1,0 +1,4 @@
+{"width":2,"height":1,"frames":[
+ {"x":0,"y":0,"w":1,"h":1,"pixels":[255,0,0,255],"delayMs":100,"blend":"source","dispose":"none"},
+ {"x":1,"y":0,"w":1,"h":1,"pixels":[0,0,255,255],"delayMs":100,"blend":"source","dispose":"background"}
+]}
